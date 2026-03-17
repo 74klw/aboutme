@@ -9,7 +9,7 @@ def index():
     homepage += "<a href=/today>顯示日期時間</a><br>"
     homepage += "<a href=/welcome?nick=tcyang>傳送使用者暱稱</a><br>"
     homepage += "<a href=/account>網頁表單傳值</a><br>"
-    homepage += "<a href=/about>柏睿簡介網頁</a><br>"
+    homepage += "<a href=http://www1.pu.edu.tw/~s1131266/>柏睿簡介網頁</a><br>"
     return homepage
 
 @app.route("/mis")
